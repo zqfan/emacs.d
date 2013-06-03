@@ -22,6 +22,7 @@
       org-tags-column 80
       org-startup-indented t)
 
+(setq org-agenda-files (quote ("~/Ubuntu One/gtd/" "~/protected/vrv/work.org")))
 
 ; Refile targets include this file and any file contributing to the agenda - up to 5 levels deep
 (setq org-refile-targets (quote ((nil :maxlevel . 5) (org-agenda-files :maxlevel . 5))))
